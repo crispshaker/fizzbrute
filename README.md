@@ -27,8 +27,7 @@ If you want to adjust the range of combination lengths to be considered, modify 
 
 If you want to change the frequency of progress updates, modify the PRINT_EVERY_X_ITERATION parameter. A lower value will provide more frequent updates but may slow down the program.
 
-If you want to change the maximum time a Python code snippet you want to evaluate should take before skipping the evaluation, modify the DURATION_TILL_TIMEOUT parameter. A longer duration might increase the time the program might take to finish. The provided code considers a length of 100 milliseconds to be sufficient.
-The code provided deems a span of 100 milliseconds to be sufficient.
+If you want to change the maximum time a Python code snippet you want to evaluate should take before skipping the evaluation, modify the DURATION_TILL_TIMEOUT parameter. A longer duration might increase the time the program might take to finish. The code provided deems a span of 100 milliseconds to be sufficient.
 
 ## Troubleshooting
 
